@@ -38,7 +38,7 @@ BE ADVISED: If you DO NOT click the verification link in the email sent to your 
 <img src="src\images\gamepage.PNG" width="700" ><br> 
 
 6. Check out all of the current teams created by clicking the view all teams tab on the header. Here you can view all current team requests based by the each console (PC, Xbox, Playstation, Nintendo Switch). You can click on the team name tags to jump straight to the team page where you can comment/join/and view the current members of the team.<br>  
-<img src="src\images\viewteams.PNG " align="left"  width="700" ><br> 
+<img src="src\images\viewteams.PNG " width="700" ><br> 
 
 
 7. Can't find a game you want to play? Click the search all games tab on the header to look up over 1k different video games with our 3rd party service provider, RAWG Api. Once you find the game you want to play click the save game button. You will be taken straight back to the view all games page where you can go ahead and click the follow button on the game to save it to your profile.<br>  
@@ -46,19 +46,19 @@ BE ADVISED: If you DO NOT click the verification link in the email sent to your 
 
 
 8. Want to lead your own team? Go to the create team tab on the header. Here you will enter the name of your team, the game you want to play from the list of available games in the db, select the amount of players you want on your team, and finally select the console you are playing on. Once you have created a team you will be taken straight to the team page where you can view all of the information that you have created.<br>  
-<img src="src\images\createteam.PNG " align="left"  width="700" ><br> 
+<img src="src\images\createteam.PNG " width="700" ><br> 
 
 <br> 
 
 ##Technology Used
 
-- Backend: SpringBoot
+1. Backend: SpringBoot
 
-- Maven Dependencies: Junit, Mapstruct, Lombok, Thymeleaf, OkHttp, Spring-Security
+2. Maven Dependencies: Junit, Mapstruct, Lombok, Thymeleaf, OkHttp, Spring-Security
 
-- Frontend: Angular, CSS, HTML, Bootstrap, Typescript, Javascript
+3. Frontend: Angular, CSS, HTML, Bootstrap, Typescript, Javascript
 
-- Database:  MariaDB
+4. Database:  MariaDB
 
 
 ## Credits
