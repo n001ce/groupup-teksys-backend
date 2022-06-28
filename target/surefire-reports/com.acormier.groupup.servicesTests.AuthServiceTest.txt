@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.acormier.groupup.servicesTests.AuthServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.247 s <<< FAILURE! - in com.acormier.groupup.servicesTests.AuthServiceTest
+getUserTest  Time elapsed: 0.224 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_sb8bbouer5wak8vyiiy4pf2bx]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.acormier.groupup.servicesTests.AuthServiceTest.getUserTest(AuthServiceTest.java:53)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.acormier.groupup.servicesTests.AuthServiceTest.getUserTest(AuthServiceTest.java:53)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=5887) Duplicate entry 'test' for key 'UK_sb8bbouer5wak8vyiiy4pf2bx'
+	at com.acormier.groupup.servicesTests.AuthServiceTest.getUserTest(AuthServiceTest.java:53)
+

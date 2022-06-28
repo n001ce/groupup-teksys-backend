@@ -1,1 +1,15 @@
-com\perscholas\groupupspringbootbackend\GroupupSpringbootBackendApplicationTests.class
+com\acormier\groupup\servicesTests\RawgServiceTest.class
+com\acormier\groupup\repositoryTests\RefreshTokenRepositoryTests.class
+com\acormier\groupup\repositoryTests\UserRepositoryTests.class
+com\acormier\groupup\repositoryTests\GameRepositoryTests.class
+com\acormier\groupup\repositoryTests\CommentRepositoryTests.class
+com\acormier\groupup\servicesTests\RefreshTokenServiceTests.class
+com\acormier\groupup\servicesTests\AuthServiceTest.class
+com\acormier\groupup\GroupupSpringbootBackendApplicationTests.class
+com\acormier\groupup\servicesTests\UserServiceImpTest.class
+com\acormier\groupup\servicesTests\CommentServiceTests.class
+com\acormier\groupup\servicesTests\TeamServiceTests.class
+com\acormier\groupup\repositoryTests\TeamRepositoryTests.class
+com\acormier\groupup\repositoryTests\VerificationTokenRepositoryTests.class
+com\acormier\groupup\servicesTests\GameServiceTests.class
+com\acormier\groupup\servicesTests\ProfileServiceTests.class

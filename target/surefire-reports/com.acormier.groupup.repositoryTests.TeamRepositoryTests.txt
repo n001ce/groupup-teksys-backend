@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.acormier.groupup.repositoryTests.TeamRepositoryTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.245 s <<< FAILURE! - in com.acormier.groupup.repositoryTests.TeamRepositoryTests
+findByTeamLeader  Time elapsed: 0.062 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.acormier.groupup.repositoryTests.TeamRepositoryTests.findByTeamLeader(TeamRepositoryTests.java:47)
+

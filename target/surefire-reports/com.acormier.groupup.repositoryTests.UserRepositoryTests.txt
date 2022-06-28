@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.acormier.groupup.repositoryTests.UserRepositoryTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.124 s <<< FAILURE! - in com.acormier.groupup.repositoryTests.UserRepositoryTests
+findByUsernameTest  Time elapsed: 0.096 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_ob8kqyqqgmefl0aco34akdtpe]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.acormier.groupup.repositoryTests.UserRepositoryTests.findByUsernameTest(UserRepositoryTests.java:38)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.acormier.groupup.repositoryTests.UserRepositoryTests.findByUsernameTest(UserRepositoryTests.java:38)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=5897) Duplicate entry 'test@test.com' for key 'UK_ob8kqyqqgmefl0aco34akdtpe'
+	at com.acormier.groupup.repositoryTests.UserRepositoryTests.findByUsernameTest(UserRepositoryTests.java:38)
+
+findByEmailTest  Time elapsed: 0.024 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_ob8kqyqqgmefl0aco34akdtpe]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.acormier.groupup.repositoryTests.UserRepositoryTests.findByEmailTest(UserRepositoryTests.java:50)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.acormier.groupup.repositoryTests.UserRepositoryTests.findByEmailTest(UserRepositoryTests.java:50)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: (conn=5897) Duplicate entry 'test@test.com' for key 'UK_ob8kqyqqgmefl0aco34akdtpe'
+	at com.acormier.groupup.repositoryTests.UserRepositoryTests.findByEmailTest(UserRepositoryTests.java:50)
+

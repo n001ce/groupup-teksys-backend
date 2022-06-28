@@ -13,11 +13,9 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-
-application-dev.properties
+application.properties
 app.key
 app.pub
-
 # External tool builders
 .externalToolBuilders/
 
